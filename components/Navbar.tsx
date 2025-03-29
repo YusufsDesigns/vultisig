@@ -12,8 +12,15 @@ import {
     AccordionItem,
     AccordionTrigger,
 } from "@/components/ui/accordion"
-
-import { IoMdMenu } from "react-icons/io";
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import { IoIosArrowDown, IoMdMenu } from "react-icons/io";
 
 const Navbar = () => {
     return (
@@ -22,7 +29,19 @@ const Navbar = () => {
                 <Image src={Logo} alt="Vultisig Logo" width={150} />
                 <div className="items-center hidden gap-10 lg:flex">
                     <ul className="flex items-center gap-10 text-[#A1A1A1]">
-                        <li>Product</li>
+                        <DropdownMenu>
+                            <DropdownMenuTrigger className="flex items-center gap-2 cursor-pointer outline-transparent">
+                                Product
+                                <IoIosArrowDown />
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent className="bg-[#061B3A] text-white space-y-2">
+                                <DropdownMenuItem>Vultisig Mobile App</DropdownMenuItem>
+                                <DropdownMenuItem>Vultisig macOS</DropdownMenuItem>
+                                <DropdownMenuItem>Vultisig Windows</DropdownMenuItem>
+                                <DropdownMenuItem>Vultisig Linux</DropdownMenuItem>
+                                <DropdownMenuItem>VultiConnect (Chrome extension)</DropdownMenuItem>
+                            </DropdownMenuContent>
+                        </DropdownMenu>
                         <li>How it works</li>
                         <li>Backed By</li>
                         <li>Docs</li>
