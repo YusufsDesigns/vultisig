@@ -11,16 +11,16 @@ import VultisigLogo from "@/public/vultisig.svg"
 const HeroSection = () => {
     return (
         <section className="max-w-[1200px] mx-auto px-5 py-10 relative">
-            <div className="absolute lg:top-15 left-0 max-lg:shadow-[0_0_190px_40px_rgba(33,230,191,0.5)] glow">
+            <div className="absolute lg:top-15 left-0 max-lg:shadow-[0_0_210px_40px_rgba(33,230,191,0.5)] glow">
                 <Image src={BitcoinLogo} alt="Bitcoin Logo" width={60} className="hidden lg:block" />
             </div>
-            <div className="absolute top-80 lg:top-65 lg:left-10 left-20 max-lg:shadow-[0_0_190px_40px_rgba(33,230,191,0.5)] glow">
+            <div className="absolute top-80 lg:top-65 lg:left-10 left-20 max-lg:shadow-[0_0_210px_40px_rgba(33,230,191,0.5)] glow">
                 <Image src={EthLogo} alt="Eth Logo" width={60} className="hidden lg:block" />
             </div>
-            <div className="absolute lg:top-15 right-0 max-lg:shadow-[0_0_190px_40px_rgba(33,230,191,0.5)] glow">
+            <div className="absolute lg:top-15 right-0 max-lg:shadow-[0_0_210px_40px_rgba(33,230,191,0.5)] glow">
                 <Image src={VultisigLogo} alt="Vultisig Logo" width={60} className="hidden lg:block" />
             </div>
-            <div className="absolute top-90 lg:top-70 right-10 max-lg:shadow-[0_0_190px_40px_rgba(33,230,191,0.5)] glow">
+            <div className="absolute top-90 lg:top-70 right-10 max-lg:shadow-[0_0_210px_40px_rgba(33,230,191,0.5)] glow">
                 <Image src={ThorLogo} alt="Thorchain Logo" width={60} className="hidden lg:block" />
             </div>
             <div className="flex flex-col items-center">

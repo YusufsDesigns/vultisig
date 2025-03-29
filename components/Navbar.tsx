@@ -18,9 +18,9 @@ import { IoMdMenu } from "react-icons/io";
 const Navbar = () => {
     return (
         <div className="max-w-[1400px] mx-auto px-5">
-            <nav className="py-5 flex items-center justify-between">
+            <nav className="flex items-center justify-between py-5">
                 <Image src={Logo} alt="Vultisig Logo" width={150} />
-                <div className="items-center gap-10 hidden lg:flex">
+                <div className="items-center hidden gap-10 lg:flex">
                     <ul className="flex items-center gap-10 text-[#A1A1A1]">
                         <li>Product</li>
                         <li>How it works</li>
@@ -32,11 +32,11 @@ const Navbar = () => {
                 </div>
                 <Sheet>
                 <SheetTrigger className="lg:hidden">
-                    <IoMdMenu className="text-xl" />
+                    <IoMdMenu className="text-3xl" />
                 </SheetTrigger>
                 <SheetContent className="bg-[#061B3A] border-none">
                     <h1 className="font-medium p-4 border-b border-b-[#142743]">Menu</h1>
-                    <div className="gap-4 flex flex-col px-4">
+                    <div className="flex flex-col gap-4 px-4">
                         <ul className="flex flex-col gap-2">
                             <Accordion type="single" collapsible>
                                 <AccordionItem value="item-1">
