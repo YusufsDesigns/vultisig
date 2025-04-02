@@ -10,7 +10,7 @@ const SectionSix = () => {
         <div className='max-w-[1100px] mx-auto flex flex-col px-2 sm:px-5 sm:py-30 py-20'>
                 <h1 className='px-3 mb-10 text-3xl font-semibold text-center sm:text-4xl'>Best features in <span className="text-gradient">one place</span></h1>
                 <div className='flex flex-col gap-5'>
-                    <GlassCard className='flex flex-col items-center gap-10 px-5 py-5 rounded sm:px-10 sm:py-10 lg:flex-row'>
+                    <GlassCard className='flex flex-col items-center gap-10 px-5 py-10 rounded sm:px-10 sm:py-10 lg:flex-row'>
                         <div className="flex-1">
                             <p className='mb-5 text-2xl font-bold sm:text-4xl sm:mb-10'>Vultisig: Asset Management Hub</p>
                             <p className='text-lg text-[#b9b9b9]'>Vultisig is chain agnostic - Bitcoin, Ethereum, Solana, THORChain and many more. The first multi-chain, multi-asset, multi-signature wallet in the world for everyone. You can deposit, send, swap and more inside Vultisig.</p>
