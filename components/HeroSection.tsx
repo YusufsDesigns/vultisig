@@ -28,7 +28,7 @@ const HeroSection = () => {
                     <p>VULTISIG AIRDROP IS LIVE!</p>
                     <FaLongArrowAltRight />
                 </GlassCard>
-                <h1 className="md:text-6xl text-4xl  text-center max-w-[1000px] leading-[1.2] my-4">Regain control with the Seedless, Multi-chain  crypto vault</h1>
+                <h1 className="md:text-6xl text-4xl  text-center max-w-[1000px] leading-[1.2] my-4">Regain control with the <span className="text-gradient">Seedless, Multi-chain</span> crypto vault</h1>
                 <p className="max-w-[800px] md:text-base text-sm text-center text-[#A1A1A1] mb-10">Experience top-tier security with Vultisig, the ultimate self-custodial, multi-chain crypto vault. It's based on secure threshold signatures. It's the first seedless, institutional-grade, multi-chain vault for everyone on the market.</p>
                 <button className="bg-[#33E6BF]/20 border border-[#24a388] px-10 py-2 rounded-md mb-20 sm:mb-30 shadow-[0_0_30px_10px_rgba(33,230,191,0.2)]">Download Now</button>
 

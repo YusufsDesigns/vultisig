@@ -12,28 +12,28 @@ const SectionTwo = () => {
     return (
         <section className='flex items-center flex-col py-20 rounded-md px-5 max-w-[1200px] mx-auto'>
             <h1 className='mb-5 text-2xl font-semibold'>Trusted by the best</h1>
-            <div className='grid lg:grid-cols-6 sm:grid-cols-3 grid-cols-2 gap-10 font-medium text-xl'>
-                <div className='flex items-center gap-2'>
+            <div className='grid grid-cols-2 gap-10 text-xl font-medium lg:grid-cols-6 sm:grid-cols-3'>
+                <div className='flex flex-col items-center gap-2 sm:flex-row'>
                     <Image src={LogoOne} width={40} alt='Thorchain Logo' />
                     <span>THORChain</span>
                 </div>
-                <div className='flex items-center gap-2'>
+                <div className='flex flex-col items-center gap-2 sm:flex-row'>
                     <Image src={LogoTwo} width={40} alt='Vultisig Logo' />
                     <span>Vultisig</span>
                 </div>
-                <div className='flex items-center gap-2'>
+                <div className='flex flex-col items-center gap-2 sm:flex-row'>
                     <Image src={LogoThree} width={40} alt='WEWE Logo' />
                     <span>WEWE</span>
                 </div>
-                <div className='flex items-center gap-2'>
+                <div className='flex flex-col items-center gap-2 sm:flex-row'>
                     <Image src={LogoFour} width={40} alt='DeFi Suisse Logo' />
                     <span>DeFi Suisse</span>
                 </div>
-                <div className='flex items-center gap-2'>
+                <div className='flex flex-col items-center gap-2 sm:flex-row'>
                     <Image src={LogoFive} width={40} alt='ZKFinance Logo' />
                     <span>ZKFinance</span>
                 </div>
-                <div className='flex items-center gap-2'>
+                <div className='flex flex-col items-center gap-2 sm:flex-row'>
                     <Image src={LogoSix} width={40} alt='RUJI Logo' />
                     <span>RUJI</span>
                 </div>
